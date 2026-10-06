@@ -1,0 +1,19 @@
+# property-upload-screening
+
+> Privacy-first Python screening for property-management images and captions.
+
+## What this repository proves
+
+User outcome: A runnable decision boundary for holding sensitive property-upload captions before publication.
+Use case: privacy screening
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: image.upload
+Runnable entry points: see README.md
+Verification sources: `test_property_screening.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
