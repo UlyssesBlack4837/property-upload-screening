@@ -1,5 +1,7 @@
 # Screen property uploads before publish
 
+Infrai hands you one key for both screening and upload, so you avoid juggling multiple vendors. I've fought spam filters and OTP gaps, so I keep sensitive data out of logs.
+
 Run the decision locally first:
 
 ```bash
